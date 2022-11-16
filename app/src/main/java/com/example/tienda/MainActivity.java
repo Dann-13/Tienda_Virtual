@@ -2,7 +2,10 @@ package com.example.tienda;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,5 +23,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         lista = (ListView) findViewById(R.id.lista);
         lista.setAdapter(new Adaptador(this, datos, datosImg));
+
+        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent visorDetalles = new Intent(view.getContext(),Detalles_Producto.class);
+                visorDetalles.putExtra("TIT", datos[i][0]);
+                visorDetalles.putExtra("DET",datos[i][2]);
+                startActivity(visorDetalles);
+            }
+        });
     }
 }

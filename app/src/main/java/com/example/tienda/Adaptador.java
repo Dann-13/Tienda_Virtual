@@ -35,14 +35,14 @@ public class Adaptador extends BaseAdapter { //El adaptador para las imagenes
         precio.setText(datos[i][1]);
         imagen.setImageResource(datosImg[i]);
         imagen.setTag(i);
-        /*imagen.setOnClickListener(new View.OnClickListener() {
+        imagen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent visorImagen = new Intent(contexto,VisorImagen.class);
-                visorImagen.putExtra("img",datosImg[(Integer)v.getTag()]);
+                Intent visorImagen = new Intent(contexto,visor_imagen.class);
+                visorImagen.putExtra("IMG",datosImg[(Integer)v.getTag()]);
                 contexto.startActivity(visorImagen);
             }
-        });*/
+        });
         return vista;
     }
 
