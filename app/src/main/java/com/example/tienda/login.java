@@ -20,6 +20,7 @@ public class login extends AppCompatActivity {
         pas = findViewById(R.id.pas);
     }
 
+/*
       public Void login (View view) {
 
         String usuario =use.getText().toString();
@@ -34,6 +35,5 @@ public class login extends AppCompatActivity {
             mensaje.show();
         }
 
-
-    }
+*/
 }

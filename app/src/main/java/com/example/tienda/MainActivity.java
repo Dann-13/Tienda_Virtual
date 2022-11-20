@@ -34,10 +34,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    public Void Ing (View View ) {
-        Intent Ing = new Intent(this,login.class);
-        startActivity(Ing);
-        return null;
+    public void loguin (View view){
+        Intent i = new Intent(this, login.class);
+        startActivity(i);
     }
 
 }
