@@ -20,20 +20,18 @@ public class login extends AppCompatActivity {
         pas = findViewById(R.id.pas);
     }
 
-/*
-      public Void login (View view) {
+    public void validar (View view){
 
-        String usuario =use.getText().toString();
+        String usuario = use.getText().toString();
         String clave = pas.getText().toString();
 
-        if (usuario.equals("admin") && clave.equals ("12345")){
-            Intent i = new Intent(this,ingreso.class );
-            i.putExtra("nombre",usuario);
+        if (usuario.equals("admin") && clave.equals("12345")){
+            Intent i = new Intent(this, ingreso.class);
+            //i.putExtra("Nombre", usuario);
             startActivity(i);
-        } else {
-            Toast mensaje= Toast.makeText(this,"verifique usuario y/o contraseña",Toast.LENGTH_LONG);
+        } else{
+            Toast mensaje = Toast.makeText(this, "Verifique usuario y/o contraseña", Toast.LENGTH_LONG);
             mensaje.show();
         }
-
-*/
+    }
 }
