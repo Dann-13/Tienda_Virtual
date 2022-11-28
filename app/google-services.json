@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "715289584385",
+    "project_id": "galaxystore-daa8b",
+    "storage_bucket": "galaxystore-daa8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715289584385:android:0193a38193a7a67448f100",
+        "android_client_info": {
+          "package_name": "com.example.tienda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715289584385-265dghs5c74p7h69dg7k7ca7v2hdul8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tienda",
+            "certificate_hash": "8312f3792f739523bf4d059c1e16a276354cf930"
+          }
+        },
+        {
+          "client_id": "715289584385-gdboqt37u6l71qqsjplp6sd3eoeihsoj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5v_2uEHJ4KZOouX_MWSam5EfpRDn4y8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715289584385-gdboqt37u6l71qqsjplp6sd3eoeihsoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
