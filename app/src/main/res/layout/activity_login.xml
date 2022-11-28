@@ -7,10 +7,10 @@
     tools:context=".login">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnEntrar"
         android:layout_width="125dp"
         android:layout_height="66dp"
-        android:onClick="validar"
+        android:onClick="ingresar"
         android:text="Entrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,9 +21,10 @@
         app:toggleCheckedStateOnClick="true" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnRegistro"
         android:layout_width="125dp"
         android:layout_height="66dp"
+        android:onClick="registrar"
         android:text="Registrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,7 +73,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/use"
+        android:id="@+id/editTextCorreo"
         android:layout_width="228dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -86,7 +87,7 @@
         app:layout_constraintVertical_bias="0.068" />
 
     <EditText
-        android:id="@+id/pas"
+        android:id="@+id/editTextPassword"
         android:layout_width="228dp"
         android:layout_height="47dp"
         android:ems="10"
